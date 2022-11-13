@@ -10,6 +10,7 @@ use Symfony\Component\{
 
 class HomeController extends AbstractController
 {
+// Add comments
     /**
      * @Route("/home", name="app_home")
      */
