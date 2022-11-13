@@ -16,7 +16,6 @@ class HomeController extends AbstractController
     public function index(): Response {
         return $this->json([
             'message' => 'Welcome to your new controller!',
-            'users' => ["Franck", "Hugo", "Sandrine", "Fred", "Noélya"],
             'path' => 'src/Controller/HomeController.php',
         ]);
     }
